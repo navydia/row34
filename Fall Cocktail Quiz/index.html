@@ -1,0 +1,1328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cocktail Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Fall Menu Cocktail Quiz</h1>
+        <p>Row 34 Fall Menu 2024</p>
+        <h2 class="section">Cocktails</h2>
+        <form id="cocktail-quiz">
+
+            <!-- Singani Sour -->
+            <div class="cocktail">
+                <h2>Singani Sour</h2>
+                <!-- Main Spirit -->
+                <div class="flex-row">
+                    <label>1.5 oz</label>
+                    <select>
+                        <option value="" disabled selected>--select--</option>
+                        <option value="Privateer Bottled-in-Bond">Privateer Bottled-in-Bond</option>
+                        <option value="Singani 63 Brandy">Singani 63 Brandy</option>
+                        <option value="Grainger Vodka">Grainger Vodka</option>
+                        <option value="Espolon Reposado">Espolon Reposado</option>
+                        <option value="Elijah Craig">Elijah Craig</option>
+                        <option value="Harvest Spice Mezcal">Harvest Spice Mezcal</option>
+                        <option value="Evan Williams Bourbon">Evan Williams Bourbon</option>
+                    </select>
+                </div>
+                
+                <!-- Liqueur / Amaro -->
+                <div class="flex-row">
+                    <label>0.5 oz</label>
+                    <select>
+                        <option value="" disabled selected>--select--</option>
+                        <option value="Domain de Canton">Domain de Canton</option>
+                        <option value="Yuzuri">Yuzuri</option>
+                        <option value="Brovo Falernum">Brovo Falernum</option>
+                        <option value="Aperol">Aperol</option>
+                        <option value="Ancho Reyes">Ancho Reyes</option>
+                        <option value="Atomic Black">Atomic Black</option>
+                        <option value="Averna">Averna</option>
+                        <option value="Allspice Dram">Allspice Dram</option>
+                    </select>
+                </div>
+                
+                <!-- Simple Syrup -->
+                <div class="flex-row">
+                    <label>0.75 oz</label>
+                    <select>
+                        <option value="" disabled selected>--select--</option>
+                        <option value="Simple Syrup">Simple Syrup</option>
+                        <option value="Cinnamon Clove Syrup">Cinnamon Clove Syrup</option>
+                        <option value="Green Apple Syrup">Green Apple Syrup</option>
+                        <option value="Peablossom Syrup">Peablossom Syrup</option>
+                        <option value="Lychee Syrup">Lychee Syrup</option>
+                        <option value="Pumpkin Syrup">Pumpkin Syrup</option>
+                        <option value="Citra Peach Syrup">Citra Peach Syrup</option>
+                        <option value="Demerara">Demerara</option>
+                        <option value="Apple Demerara">Apple Demerara</option>
+                        <option value="Cardamom Coriander Syrup">Cardamom Coriander Syrup</option>
+                    </select>
+                </div>
+
+                <!-- Citrus -->
+                <div class="flex-row">
+                    <label>0.75 oz</label>
+                    <select>
+                        <option value="" disabled selected>--select--</option>
+                        <option value="Lemon Juice">Lemon Juice</option>
+                        <option value="Lime Juice">Lime Juice</option>
+                    </select>
+                </div>
+
+                <!-- Egg White & Juice -->
+                <div class="flex-row">
+                    <label>0.75 oz</label>
+                    <select>
+                        <option value="" disabled selected>--select--</option>
+                        <option value="Heavy Cream">Heavy Cream</option>
+                        <option value="Ginger Beer">Ginger Beer</option>
+                        <option value="Carrot Juice">Carrot Juice</option>
+                        <option value="Orange Juice">Orange Juice</option>
+                        <option value="Egg White">Egg White</option>
+                        <option value="Apple Cider">Apple Cider</option>
+                        <option value="Decaf Coffee">Decaf Coffee</option>
+                        <option value="Iced Tea">Iced Tea</option>
+                    </select>
+                </div>
+
+                <!-- Bitters / Tinctures -->
+                <div class="flex-row">
+                    <label>2 Dashes</label>
+                    <select>
+                        <option value="" disabled selected>--select--</option>
+                        <option value="Angostura Bitters">Angostura Bitters</option>
+                        <option value="Thai Chili Tincture">Thai Chili Tincture</option>
+                        <option value="Orange Bitters">Orange Bitters</option>
+                        <option value="Peychauds Bitters">Peychauds Bitters</option>
+                    </select>
+                </div>
+
+                <!-- Glassware -->
+                <div class="flex-row">
+                    <label>Glass</label>
+                    <select>
+                        <option value="" disabled selected>--select--</option>
+                        <option value="Rocks">Rocks</option>
+                        <option value="Rocks with King Cube">Rocks with King Cube</option>
+                        <option value="Collins">Collins</option>
+                        <option value="Collins with Crushed Ice">Collins with Crushed Ice</option>
+                        <option value="Coupe">Coupe</option>
+                        <option value="Martini">Martini</option>
+                        <option value="Berliner">Berliner</option>
+                        
+                    </select>
+                </div>
+
+                <!-- Garnish -->
+                <div class="flex-row">
+                    <label>Garnish</label>
+                    <select>
+                        <option value="" disabled selected>--select--</option>
+                        <option value="Grated Nutmeg">Grated Nutmeg</option>
+                        <option value="Grated Cinnamon">Grated Cinnamon</option>
+                        <option value="Ango Hearts">Ango Hearts</option>
+                        <option value="Dehydrated Apple">Dehydrated Apple</option>
+                        <option value="Orange Twist">Orange Twist</option>
+                        <option value="Lemon Twist">Lemon Twist</option>
+                        <option value="Cinnamon Stick">Cinnamon Stick</option>
+                        <option value="Dehydrated Lemon">Dehydrated Lemon</option>
+                        <option value="No Garnish">No Garnish</option>
+                    </select>
+                </div>
+
+            </div>
+
+            <div class="cocktail-divider"></div>
+
+            <!-- Kentucky Carrot Cake -->
+            <div class="cocktail">
+                <h2>Kentucky Carrot Cake</h2>
+                
+                <!-- Main Spirit -->
+                <div class="flex-row">
+                    <label>1.5 oz</label>
+                    <select>
+                        <option value="" disabled selected>--select--</option>
+                        <option value="Privateer Bottled-in-Bond">Privateer Bottled-in-Bond</option>
+                        <option value="Singani 63 Brandy">Singani 63 Brandy</option>
+                        <option value="Grainger Vodka">Grainger Vodka</option>
+                        <option value="Espolon Reposado">Espolon Reposado</option>
+                        <option value="Elijah Craig">Elijah Craig</option>
+                        <option value="Harvest Spice Mezcal">Harvest Spice Mezcal</option>
+                        <option value="Evan Williams Bourbon">Evan Williams Bourbon</option>
+                    </select>
+                </div>
+                
+                <!-- Liqueur / Amaro -->
+                <div class="flex-row">
+                    <label>0.5 oz</label>
+                    <select>
+                        <option value="" disabled selected>--select--</option>
+                        <option value="Domain de Canton">Domain de Canton</option>
+                        <option value="Yuzuri">Yuzuri</option>
+                        <option value="Brovo Falernum">Brovo Falernum</option>
+                        <option value="Aperol">Aperol</option>
+                        <option value="Ancho Reyes">Ancho Reyes</option>
+                        <option value="Atomic Black">Atomic Black</option>
+                        <option value="Averna">Averna</option>
+                        <option value="Allspice Dram">Allspice Dram</option>
+                    </select>
+                </div>
+                
+                <!-- Simple Syrup -->
+                <div class="flex-row">
+                    <label>0.5 oz</label>
+                    <select>
+                        <option value="" disabled selected>--select--</option>
+                        <option value="Simple Syrup">Simple Syrup</option>
+                        <option value="Cinnamon Clove Syrup">Cinnamon Clove Syrup</option>
+                        <option value="Green Apple Syrup">Green Apple Syrup</option>
+                        <option value="Peablossom Syrup">Peablossom Syrup</option>
+                        <option value="Lychee Syrup">Lychee Syrup</option>
+                        <option value="Pumpkin Syrup">Pumpkin Syrup</option>
+                        <option value="Citra Peach Syrup">Citra Peach Syrup</option>
+                        <option value="Demerara">Demerara</option>
+                        <option value="Apple Demerara">Apple Demerara</option>
+                        <option value="Cardamom Coriander Syrup">Cardamom Coriander Syrup</option>
+                    </select>
+                </div>
+
+                <!-- Egg White & Juice -->
+                <div class="flex-row">
+                    <label>1 oz</label>
+                    <select>
+                        <option value="" disabled selected>--select--</option>
+                        <option value="Heavy Cream">Heavy Cream</option>
+                        <option value="Ginger Beer">Ginger Beer</option>
+                        <option value="Carrot Juice">Carrot Juice</option>
+                        <option value="Orange Juice">Orange Juice</option>
+                        <option value="Egg White">Egg White</option>
+                        <option value="Apple Cider">Apple Cider</option>
+                        <option value="Decaf Coffee">Decaf Coffee</option>
+                        <option value="Iced Tea">Iced Tea</option>
+                    </select>
+                </div>
+
+                <!-- Egg -->
+                <div class="flex-row">
+                    <label>1 Whole</label>
+                    <select>
+                        <option value="" disabled selected>--select--</option>
+                        <option value="Boot">Boot</option>
+                        <option value="Orphan">Orphan</option>
+                        <option value="Egg">Egg</option>
+                        <option value="Pizza">Pizza</option>
+                    </select>
+                </div>
+
+                <!-- Glassware -->
+                <div class="flex-row">
+                    <label>Glass</label>
+                    <select>
+                        <option value="" disabled selected>--select--</option>
+                        <option value="Rocks">Rocks</option>
+                        <option value="Rocks with King Cube">Rocks with King Cube</option>
+                        <option value="Collins">Collins</option>
+                        <option value="Collins with Crushed Ice">Collins with Crushed Ice</option>
+                        <option value="Coupe">Coupe</option>
+                        <option value="Martini">Martini</option>
+                        <option value="Berliner">Berliner</option>
+                        
+                    </select>
+                </div>
+
+                <!-- Garnish -->
+                <div class="flex-row">
+                    <label>Garnish</label>
+                    <select>
+                        <option value="" disabled selected>--select--</option>
+                        <option value="Grated Nutmeg">Grated Nutmeg</option>
+                        <option value="Grated Cinnamon">Grated Cinnamon</option>
+                        <option value="Ango Hearts">Ango Hearts</option>
+                        <option value="Dehydrated Apple">Dehydrated Apple</option>
+                        <option value="Orange Twist">Orange Twist</option>
+                        <option value="Lemon Twist">Lemon Twist</option>
+                        <option value="Cinnamon Stick">Cinnamon Stick</option>
+                        <option value="Dehydrated Lemon">Dehydrated Lemon</option>
+                        <option value="No Garnish">No Garnish</option>
+                    </select>
+                </div>
+
+            </div>
+            
+            <div class="cocktail-divider"></div>
+
+            <!-- O Bachan -->
+            <div class="cocktail">
+                <h2>O Bāchan</h2>
+                
+                <!-- Main Spirit -->
+                <div class="flex-row">
+                    <label>1.5 oz</label>
+                    <select>
+                        <option value="" disabled selected>--select--</option>
+                        <option value="Privateer Bottled-in-Bond">Privateer Bottled-in-Bond</option>
+                        <option value="Singani 63 Brandy">Singani 63 Brandy</option>
+                        <option value="Grainger Vodka">Grainger Vodka</option>
+                        <option value="Espolon Reposado">Espolon Reposado</option>
+                        <option value="Elijah Craig">Elijah Craig</option>
+                        <option value="Harvest Spice Mezcal">Harvest Spice Mezcal</option>
+                        <option value="Evan Williams Bourbon">Evan Williams Bourbon</option>
+                    </select>
+                </div>
+                
+                <!-- Liqueur / Amaro -->
+                <div class="flex-row">
+                    <label>0.5 oz</label>
+                    <select>
+                        <option value="" disabled selected>--select--</option>
+                        <option value="Domain de Canton">Domain de Canton</option>
+                        <option value="Yuzuri">Yuzuri</option>
+                        <option value="Brovo Falernum">Brovo Falernum</option>
+                        <option value="Aperol">Aperol</option>
+                        <option value="Ancho Reyes">Ancho Reyes</option>
+                        <option value="Atomic Black">Atomic Black</option>
+                        <option value="Averna">Averna</option>
+                        <option value="Allspice Dram">Allspice Dram</option>
+                    </select>
+                </div>
+                
+                <!-- Simple Syrup -->
+                <div class="flex-row">
+                    <label>1 oz</label>
+                    <select>
+                        <option value="" disabled selected>--select--</option>
+                        <option value="Simple Syrup">Simple Syrup</option>
+                        <option value="Cinnamon Clove Syrup">Cinnamon Clove Syrup</option>
+                        <option value="Green Apple Syrup">Green Apple Syrup</option>
+                        <option value="Peablossom Syrup">Peablossom Syrup</option>
+                        <option value="Lychee Syrup">Lychee Syrup</option>
+                        <option value="Pumpkin Syrup">Pumpkin Syrup</option>
+                        <option value="Citra Peach Syrup">Citra Peach Syrup</option>
+                        <option value="Demerara">Demerara</option>
+                        <option value="Apple Demerara">Apple Demerara</option>
+                        <option value="Cardamom Coriander Syrup">Cardamom Coriander Syrup</option>
+                    </select>
+                </div>
+
+                <!-- Simple Syrup -->
+                <div class="flex-row">
+                    <label>0.5 oz</label>
+                    <select>
+                        <option value="" disabled selected>--select--</option>
+                        <option value="Simple Syrup">Simple Syrup</option>
+                        <option value="Cinnamon Clove Syrup">Cinnamon Clove Syrup</option>
+                        <option value="Green Apple Syrup">Green Apple Syrup</option>
+                        <option value="Peablossom Syrup">Peablossom Syrup</option>
+                        <option value="Lychee Syrup">Lychee Syrup</option>
+                        <option value="Pumpkin Syrup">Pumpkin Syrup</option>
+                        <option value="Citra Peach Syrup">Citra Peach Syrup</option>
+                        <option value="Demerara">Demerara</option>
+                        <option value="Apple Demerara">Apple Demerara</option>
+                        <option value="Cardamom Coriander Syrup">Cardamom Coriander Syrup</option>
+                    </select>
+                </div>
+
+                <!-- Citrus -->
+                <div class="flex-row">
+                    <label>0.75 oz</label>
+                    <select>
+                        <option value="" disabled selected>--select--</option>
+                        <option value="Lemon Juice">Lemon Juice</option>
+                        <option value="Lime Juice">Lime Juice</option>
+                    </select>
+                </div>
+
+               <!-- Egg White & Juice -->
+               <div class="flex-row">
+                <label>0.75 oz</label>
+                <select>
+                    <option value="" disabled selected>--select--</option>
+                    <option value="Heavy Cream">Heavy Cream</option>
+                    <option value="Ginger Beer">Ginger Beer</option>
+                    <option value="Carrot Juice">Carrot Juice</option>
+                    <option value="Orange Juice">Orange Juice</option>
+                    <option value="Egg White">Egg White</option>
+                    <option value="Apple Cider">Apple Cider</option>
+                    <option value="Decaf Coffee">Decaf Coffee</option>
+                    <option value="Iced Tea">Iced Tea</option>
+                </select>
+                </div>
+
+                <!-- Glassware -->
+                <div class="flex-row">
+                    <label>Glass</label>
+                    <select>
+                        <option value="" disabled selected>--select--</option>
+                        <option value="Rocks">Rocks</option>
+                        <option value="Rocks with King Cube">Rocks with King Cube</option>
+                        <option value="Collins">Collins</option>
+                        <option value="Collins with Crushed Ice">Collins with Crushed Ice</option>
+                        <option value="Coupe">Coupe</option>
+                        <option value="Martini">Martini</option>
+                        <option value="Berliner">Berliner</option>
+                    </select>
+                </div>
+
+                <!-- Garnish -->
+                <div class="flex-row">
+                    <label>Garnish</label>
+                    <select>
+                        <option value="" disabled selected>--select--</option>
+                        <option value="Grated Nutmeg">Grated Nutmeg</option>
+                        <option value="Grated Cinnamon">Grated Cinnamon</option>
+                        <option value="Ango Hearts">Ango Hearts</option>
+                        <option value="Dehydrated Apple">Dehydrated Apple</option>
+                        <option value="Orange Twist">Orange Twist</option>
+                        <option value="Lemon Twist">Lemon Twist</option>
+                        <option value="Cinnamon Stick">Cinnamon Stick</option>
+                        <option value="Dehydrated Lemon">Dehydrated Lemon</option>
+                        <option value="No Garnish">No Garnish</option>
+                    </select>
+                </div>
+            </div>
+            
+            <div class="cocktail-divider"></div>
+
+                <!-- Autumn Mule -->
+            <div class="cocktail">
+                <h2>Autumn Mule</h2>
+                
+                <!-- Main Spirit -->
+                <div class="flex-row">
+                    <label>1.5 oz</label>
+                    <select>
+                        <option value="" disabled selected>--select--</option>
+                        <option value="Privateer Bottled-in-Bond">Privateer Bottled-in-Bond</option>
+                        <option value="Singani 63 Brandy">Singani 63 Brandy</option>
+                        <option value="Grainger Vodka">Grainger Vodka</option>
+                        <option value="Espolon Reposado">Espolon Reposado</option>
+                        <option value="Elijah Craig">Elijah Craig</option>
+                        <option value="Harvest Spice Mezcal">Harvest Spice Mezcal</option>
+                        <option value="Evan Williams Bourbon">Evan Williams Bourbon</option>
+                    </select>
+                </div>
+
+                <!-- Egg White & Juice -->
+                <div class="flex-row">
+                    <label>1.5 oz</label>
+                    <select>
+                        <option value="" disabled selected>--select--</option>
+                        <option value="Heavy Cream">Heavy Cream</option>
+                        <option value="Ginger Beer">Ginger Beer</option>
+                        <option value="Carrot Juice">Carrot Juice</option>
+                        <option value="Orange Juice">Orange Juice</option>
+                        <option value="Egg White">Egg White</option>
+                        <option value="Apple Cider">Apple Cider</option>
+                        <option value="Decaf Coffee">Decaf Coffee</option>
+                        <option value="Iced Tea">Iced Tea</option>
+                    </select>
+                </div>
+                
+                <!-- Simple Syrup -->
+                <div class="flex-row">
+                    <label>0.75 oz</label>
+                    <select>
+                        <option value="" disabled selected>--select--</option>
+                        <option value="Simple Syrup">Simple Syrup</option>
+                        <option value="Cinnamon Clove Syrup">Cinnamon Clove Syrup</option>
+                        <option value="Green Apple Syrup">Green Apple Syrup</option>
+                        <option value="Peablossom Syrup">Peablossom Syrup</option>
+                        <option value="Lychee Syrup">Lychee Syrup</option>
+                        <option value="Pumpkin Syrup">Pumpkin Syrup</option>
+                        <option value="Citra Peach Syrup">Citra Peach Syrup</option>
+                        <option value="Demerara">Demerara</option>
+                        <option value="Apple Demerara">Apple Demerara</option>
+                        <option value="Cardamom Coriander Syrup">Cardamom Coriander Syrup</option>
+                    </select>
+                </div>
+
+                <!-- Citrus -->
+                <div class="flex-row">
+                    <label>0.75 oz</label>
+                    <select>
+                        <option value="" disabled selected>--select--</option>
+                        <option value="Lemon Juice">Lemon Juice</option>
+                        <option value="Lime Juice">Lime Juice</option>
+                    </select>
+                </div>
+
+                <!-- Egg White & Juice -->
+                <div class="flex-row">
+                    <label>1 oz</label>
+                    <select>
+                        <option value="" disabled selected>--select--</option>
+                        <option value="Heavy Cream">Heavy Cream</option>
+                        <option value="Ginger Beer">Ginger Beer</option>
+                        <option value="Carrot Juice">Carrot Juice</option>
+                        <option value="Orange Juice">Orange Juice</option>
+                        <option value="Egg White">Egg White</option>
+                        <option value="Apple Cider">Apple Cider</option>
+                        <option value="Decaf Coffee">Decaf Coffee</option>
+                        <option value="Iced Tea">Iced Tea</option>
+                    </select>
+                </div>
+
+                <!-- Barspoon -->
+                <div class="flex-row">
+                    <label>Bsp.</label>
+                    <select>
+                        <option value="" disabled selected>--select--</option>
+                        <option value="Angostura Bitters">Angostura Bitters</option>
+                        <option value="Allspice Dram">Allspice Dram</option>
+                        <option value="Demerara">Demerara</option>
+                        <option value="Campari">Campari</option>
+                    </select>
+                </div>
+
+                <!-- Bitters / Tinctures -->
+                <div class="flex-row">
+                    <label>1 Dash</label>
+                    <select>
+                        <option value="" disabled selected>--select--</option>
+                        <option value="Angostura Bitters">Angostura Bitters</option>
+                        <option value="Thai Chili Tincture">Thai Chili Tincture</option>
+                        <option value="Orange Bitters">Orange Bitters</option>
+                        <option value="Peychauds Bitters">Peychauds Bitters</option>
+                    </select>
+                </div>
+
+                <!-- Glassware -->
+                <div class="flex-row">
+                    <label>Glass</label>
+                    <select>
+                        <option value="" disabled selected>--select--</option>
+                        <option value="Rocks">Rocks</option>
+                        <option value="Rocks with King Cube">Rocks with King Cube</option>
+                        <option value="Collins">Collins</option>
+                        <option value="Collins with Crushed Ice">Collins with Crushed Ice</option>
+                        <option value="Coupe">Coupe</option>
+                        <option value="Martini">Martini</option>
+                        <option value="Berliner">Berliner</option>
+                        
+                    </select>
+                </div>
+
+                <!-- Garnish -->
+                <div class="flex-row">
+                    <label>Garnish</label>
+                    <select>
+                        <option value="" disabled selected>--select--</option>
+                        <option value="Grated Nutmeg">Grated Nutmeg</option>
+                        <option value="Grated Cinnamon">Grated Cinnamon</option>
+                        <option value="Ango Hearts">Ango Hearts</option>
+                        <option value="Dehydrated Apple">Dehydrated Apple</option>
+                        <option value="Orange Twist">Orange Twist</option>
+                        <option value="Lemon Twist">Lemon Twist</option>
+                        <option value="Cinnamon Stick">Cinnamon Stick</option>
+                        <option value="Dehydrated Lemon">Dehydrated Lemon</option>
+                        <option value="No Garnish">No Garnish</option>
+                    </select>
+                </div>
+
+            </div>
+            
+            <div class="cocktail-divider"></div>
+
+            <!-- Smoke & Sickle -->
+            <div class="cocktail">
+                <h2>Smoke & Sickle</h2>
+                
+                <!-- Main Spirit -->
+                <div class="flex-row">
+                    <label>1.5 oz</label>
+                    <select>
+                        <option value="" disabled selected>--select--</option>
+                        <option value="Privateer Bottled-in-Bond">Privateer Bottled-in-Bond</option>
+                        <option value="Singani 63 Brandy">Singani 63 Brandy</option>
+                        <option value="Grainger Vodka">Grainger Vodka</option>
+                        <option value="Espolon Reposado">Espolon Reposado</option>
+                        <option value="Elijah Craig">Elijah Craig</option>
+                        <option value="Harvest Spice Mezcal">Harvest Spice Mezcal</option>
+                        <option value="Evan Williams Bourbon">Evan Williams Bourbon</option>
+                    </select>
+                </div>
+
+                <!-- Liqueur / Amaro -->
+                <div class="flex-row">
+                    <label>0.5 oz</label>
+                    <select>
+                        <option value="" disabled selected>--select--</option>
+                        <option value="Domain de Canton">Domain de Canton</option>
+                        <option value="Yuzuri">Yuzuri</option>
+                        <option value="Brovo Falernum">Brovo Falernum</option>
+                        <option value="Aperol">Aperol</option>
+                        <option value="Ancho Reyes">Ancho Reyes</option>
+                        <option value="Atomic Black">Atomic Black</option>
+                        <option value="Averna">Averna</option>
+                        <option value="Allspice Dram">Allspice Dram</option>
+                    </select>
+                </div>
+
+                <!-- Liqueur / Amaro -->
+                <div class="flex-row">
+                    <label>0.25 oz</label>
+                    <select>
+                        <option value="" disabled selected>--select--</option>
+                        <option value="Domain de Canton">Domain de Canton</option>
+                        <option value="Yuzuri">Yuzuri</option>
+                        <option value="Brovo Falernum">Brovo Falernum</option>
+                        <option value="Aperol">Aperol</option>
+                        <option value="Ancho Reyes">Ancho Reyes</option>
+                        <option value="Atomic Black">Atomic Black</option>
+                        <option value="Averna">Averna</option>
+                        <option value="Allspice Dram">Allspice Dram</option>
+                    </select>
+                </div>
+                
+                <!-- Simple Syrup -->
+                <div class="flex-row">
+                    <label>0.75 oz</label>
+                    <select>
+                        <option value="" disabled selected>--select--</option>
+                        <option value="Simple Syrup">Simple Syrup</option>
+                        <option value="Cinnamon Clove Syrup">Cinnamon Clove Syrup</option>
+                        <option value="Green Apple Syrup">Green Apple Syrup</option>
+                        <option value="Peablossom Syrup">Peablossom Syrup</option>
+                        <option value="Lychee Syrup">Lychee Syrup</option>
+                        <option value="Pumpkin Syrup">Pumpkin Syrup</option>
+                        <option value="Citra Peach Syrup">Citra Peach Syrup</option>
+                        <option value="Demerara">Demerara</option>
+                        <option value="Apple Demerara">Apple Demerara</option>
+                        <option value="Cardamom Coriander Syrup">Cardamom Coriander Syrup</option>
+                    </select>
+                </div>
+
+                <!-- Citrus -->
+                <div class="flex-row">
+                    <label>0.75 oz</label>
+                    <select>
+                        <option value="" disabled selected>--select--</option>
+                        <option value="Lemon Juice">Lemon Juice</option>
+                        <option value="Lime Juice">Lime Juice</option>
+                    </select>
+                </div>
+
+                <!-- Spray -->
+                <div class="flex-row">
+                    <label>1 Spray</label>
+                    <select>
+                        <option value="" disabled selected>--select--</option>
+                        <option value="Laphroig">Laphroig</option>
+                        <option value="Rose Water">Rose Water</option>
+                        <option value="Absinthe">Absinthe</option>
+                        <option value="Thai Chili">Thai Chili</option>
+                        <option value="Orange Blossom">Orange Blossom</option>
+                    </select>
+                </div>
+
+                <!-- Glassware -->
+                <div class="flex-row">
+                    <label>Glass</label>
+                    <select>
+                        <option value="" disabled selected>--select--</option>
+                        <option value="Rocks">Rocks</option>
+                        <option value="Rocks with King Cube">Rocks with King Cube</option>
+                        <option value="Collins">Collins</option>
+                        <option value="Collins with Crushed Ice">Collins with Crushed Ice</option>
+                        <option value="Coupe">Coupe</option>
+                        <option value="Martini">Martini</option>
+                        <option value="Berliner">Berliner</option>
+                        
+                    </select>
+                </div>
+
+                <!-- Garnish -->
+                <div class="flex-row">
+                    <label>Garnish</label>
+                    <select>
+                        <option value="" disabled selected>--select--</option>
+                        <option value="Grated Nutmeg">Grated Nutmeg</option>
+                        <option value="Grated Cinnamon">Grated Cinnamon</option>
+                        <option value="Ango Hearts">Ango Hearts</option>
+                        <option value="Dehydrated Apple">Dehydrated Apple</option>
+                        <option value="Orange Twist">Orange Twist</option>
+                        <option value="Lemon Twist">Lemon Twist</option>
+                        <option value="Cinnamon Stick">Cinnamon Stick</option>
+                        <option value="Dehydrated Lemon">Dehydrated Lemon</option>
+                        <option value="No Garnish">No Garnish</option>
+                    </select>
+                </div>
+
+            </div>
+            
+            <div class="cocktail-divider"></div>
+
+            <!-- Topsfield Fare -->
+            <div class="cocktail">
+                <h2>Topsfield Fare</h2>
+                
+                <!-- Main Spirit -->
+                <div class="flex-row">
+                    <label>1.5 oz</label>
+                    <select>
+                        <option value="" disabled selected>--select--</option>
+                        <option value="Privateer Bottled-in-Bond">Privateer Bottled-in-Bond</option>
+                        <option value="Singani 63 Brandy">Singani 63 Brandy</option>
+                        <option value="Grainger Vodka">Grainger Vodka</option>
+                        <option value="Espolon Reposado">Espolon Reposado</option>
+                        <option value="Elijah Craig">Elijah Craig</option>
+                        <option value="Harvest Spice Mezcal">Harvest Spice Mezcal</option>
+                        <option value="Evan Williams Bourbon">Evan Williams Bourbon</option>
+                    </select>
+                </div>
+                
+                <!-- Simple Syrup -->
+                <div class="flex-row">
+                    <label>0.75 oz</label>
+                    <select>
+                        <option value="" disabled selected>--select--</option>
+                        <option value="Simple Syrup">Simple Syrup</option>
+                        <option value="Cinnamon Clove Syrup">Cinnamon Clove Syrup</option>
+                        <option value="Green Apple Syrup">Green Apple Syrup</option>
+                        <option value="Peablossom Syrup">Peablossom Syrup</option>
+                        <option value="Lychee Syrup">Lychee Syrup</option>
+                        <option value="Pumpkin Syrup">Pumpkin Syrup</option>
+                        <option value="Citra Peach Syrup">Citra Peach Syrup</option>
+                        <option value="Demerara">Demerara</option>
+                        <option value="Apple Demerara">Apple Demerara</option>
+                        <option value="Cardamom Coriander Syrup">Cardamom Coriander Syrup</option>
+                    </select>
+                </div>
+
+                <!-- Citrus -->
+                <div class="flex-row">
+                    <label>0.5 oz</label>
+                    <select>
+                        <option value="" disabled selected>--select--</option>
+                        <option value="Lemon Juice">Lemon Juice</option>
+                        <option value="Lime Juice">Lime Juice</option>
+                    </select>
+                </div>
+
+                <!-- Egg White & Juice -->
+                <div class="flex-row">
+                    <label>0.25 oz</label>
+                    <select>
+                        <option value="" disabled selected>--select--</option>
+                        <option value="Heavy Cream">Heavy Cream</option>
+                        <option value="Ginger Beer">Ginger Beer</option>
+                        <option value="Carrot Juice">Carrot Juice</option>
+                        <option value="Orange Juice">Orange Juice</option>
+                        <option value="Egg White">Egg White</option>
+                        <option value="Apple Cider">Apple Cider</option>
+                        <option value="Decaf Coffee">Decaf Coffee</option>
+                        <option value="Iced Tea">Iced Tea</option>
+                    </select>
+                </div>
+
+                <!-- Glassware -->
+                <div class="flex-row">
+                    <label>Glass</label>
+                    <select>
+                        <option value="" disabled selected>--select--</option>
+                        <option value="Rocks">Rocks</option>
+                        <option value="Rocks with King Cube">Rocks with King Cube</option>
+                        <option value="Collins">Collins</option>
+                        <option value="Collins with Crushed Ice">Collins with Crushed Ice</option>
+                        <option value="Coupe">Coupe</option>
+                        <option value="Martini">Martini</option>
+                        <option value="Berliner">Berliner</option>
+                        
+                    </select>
+                </div>
+
+                <!-- Garnish -->
+                <div class="flex-row">
+                    <label>Garnish</label>
+                    <select>
+                        <option value="" disabled selected>--select--</option>
+                        <option value="Grated Nutmeg">Grated Nutmeg</option>
+                        <option value="Grated Cinnamon">Grated Cinnamon</option>
+                        <option value="Ango Hearts">Ango Hearts</option>
+                        <option value="Dehydrated Apple">Dehydrated Apple</option>
+                        <option value="Orange Twist">Orange Twist</option>
+                        <option value="Lemon Twist">Lemon Twist</option>
+                        <option value="Cinnamon Stick">Cinnamon Stick</option>
+                        <option value="Dehydrated Lemon">Dehydrated Lemon</option>
+                        <option value="No Garnish">No Garnish</option>
+                    </select>
+                </div>
+
+            </div>
+            
+            <div class="cocktail-divider"></div>
+
+            <!-- Red Eye Old Fashioned -->
+            <div class="cocktail">
+                <h2>Red Eye Old Fashioned</h2>
+                
+                <!-- Main Spirit -->
+                <div class="flex-row">
+                    <label>1.5 oz</label>
+                    <select>
+                        <option value="" disabled selected>--select--</option>
+                        <option value="Privateer Bottled-in-Bond">Privateer Bottled-in-Bond</option>
+                        <option value="Singani 63 Brandy">Singani 63 Brandy</option>
+                        <option value="Grainger Vodka">Grainger Vodka</option>
+                        <option value="Espolon Reposado">Espolon Reposado</option>
+                        <option value="Elijah Craig">Elijah Craig</option>
+                        <option value="Harvest Spice Mezcal">Harvest Spice Mezcal</option>
+                        <option value="Evan Williams Bourbon">Evan Williams Bourbon</option>
+                    </select>
+                </div>
+                
+                <!-- Liqueur / Amaro -->
+                <div class="flex-row">
+                    <label>0.5 oz</label>
+                    <select>
+                        <option value="" disabled selected>--select--</option>
+                        <option value="Domain de Canton">Domain de Canton</option>
+                        <option value="Yuzuri">Yuzuri</option>
+                        <option value="Brovo Falernum">Brovo Falernum</option>
+                        <option value="Aperol">Aperol</option>
+                        <option value="Ancho Reyes">Ancho Reyes</option>
+                        <option value="Atomic Black">Atomic Black</option>
+                        <option value="Averna">Averna</option>
+                        <option value="Allspice Dram">Allspice Dram</option>
+                    </select>
+                </div>
+
+                <!-- Liqueur / Amaro -->
+                <div class="flex-row">
+                    <label>0.25 oz</label>
+                    <select>
+                        <option value="" disabled selected>--select--</option>
+                        <option value="Domain de Canton">Domain de Canton</option>
+                        <option value="Yuzuri">Yuzuri</option>
+                        <option value="Brovo Falernum">Brovo Falernum</option>
+                        <option value="Aperol">Aperol</option>
+                        <option value="Ancho Reyes">Ancho Reyes</option>
+                        <option value="Atomic Black">Atomic Black</option>
+                        <option value="Averna">Averna</option>
+                        <option value="Allspice Dram">Allspice Dram</option>
+                    </select>
+                </div>
+
+                <!-- Barspoon -->
+                <div class="flex-row">
+                    <label>Bsp.</label>
+                    <select>
+                        <option value="" disabled selected>--select--</option>
+                        <option value="Angostura Bitters">Angostura Bitters</option>
+                        <option value="Allspice Dram">Allspice Dram</option>
+                        <option value="Demerara">Demerara</option>
+                        <option value="Campari">Campari</option>
+                    </select>
+                </div>
+
+                <!-- Bitters / Tinctures -->
+                <div class="flex-row">
+                    <label>2 Dashes</label>
+                    <select>
+                        <option value="" disabled selected>--select--</option>
+                        <option value="Angostura Bitters">Angostura Bitters</option>
+                        <option value="Thai Chili Tincture">Thai Chili Tincture</option>
+                        <option value="Orange Bitters">Orange Bitters</option>
+                        <option value="Peychauds Bitters">Peychauds Bitters</option>
+                    </select>
+                </div>
+
+                <!-- Glassware -->
+                <div class="flex-row">
+                    <label>Glass</label>
+                    <select>
+                        <option value="" disabled selected>--select--</option>
+                        <option value="Rocks">Rocks</option>
+                        <option value="Rocks with King Cube">Rocks with King Cube</option>
+                        <option value="Collins">Collins</option>
+                        <option value="Collins with Crushed Ice">Collins with Crushed Ice</option>
+                        <option value="Coupe">Coupe</option>
+                        <option value="Martini">Martini</option>
+                        <option value="Berliner">Berliner</option>
+                        
+                    </select>
+                </div>
+
+                <!-- Garnish -->
+                <div class="flex-row">
+                    <label>Garnish</label>
+                    <select>
+                        <option value="" disabled selected>--select--</option>
+                        <option value="Grated Nutmeg">Grated Nutmeg</option>
+                        <option value="Grated Cinnamon">Grated Cinnamon</option>
+                        <option value="Ango Hearts">Ango Hearts</option>
+                        <option value="Dehydrated Apple">Dehydrated Apple</option>
+                        <option value="Orange Twist">Orange Twist</option>
+                        <option value="Lemon Twist">Lemon Twist</option>
+                        <option value="Cinnamon Stick">Cinnamon Stick</option>
+                        <option value="Dehydrated Lemon">Dehydrated Lemon</option>
+                        <option value="No Garnish">No Garnish</option>
+                    </select>
+                </div>
+
+            </div>
+            
+            <div class="cocktail-divider"></div>
+
+            <h2 class="section">Mocktails</h2>
+
+            <!-- Purple Haze -->
+            <div class="cocktail">
+                <h2>Purple Haze</h2>
+                
+                <!-- Simple Syrup -->
+                <div class="flex-row">
+                    <label>1 oz</label>
+                    <select>
+                        <option value="" disabled selected>--select--</option>
+                        <option value="Simple Syrup">Simple Syrup</option>
+                        <option value="Cinnamon Clove Syrup">Cinnamon Clove Syrup</option>
+                        <option value="Green Apple Syrup">Green Apple Syrup</option>
+                        <option value="Peablossom Syrup">Peablossom Syrup</option>
+                        <option value="Lychee Syrup">Lychee Syrup</option>
+                        <option value="Pumpkin Syrup">Pumpkin Syrup</option>
+                        <option value="Citra Peach Syrup">Citra Peach Syrup</option>
+                        <option value="Demerara">Demerara</option>
+                        <option value="Apple Demerara">Apple Demerara</option>
+                        <option value="Cardamom Coriander Syrup">Cardamom Coriander Syrup</option>
+                    </select>
+                </div>
+
+                <!-- Simple Syrup -->
+                <div class="flex-row">
+                    <label>0.75 oz</label>
+                    <select>
+                        <option value="" disabled selected>--select--</option>
+                        <option value="Simple Syrup">Simple Syrup</option>
+                        <option value="Cinnamon Clove Syrup">Cinnamon Clove Syrup</option>
+                        <option value="Green Apple Syrup">Green Apple Syrup</option>
+                        <option value="Peablossom Syrup">Peablossom Syrup</option>
+                        <option value="Lychee Syrup">Lychee Syrup</option>
+                        <option value="Pumpkin Syrup">Pumpkin Syrup</option>
+                        <option value="Citra Peach Syrup">Citra Peach Syrup</option>
+                        <option value="Demerara">Demerara</option>
+                        <option value="Apple Demerara">Apple Demerara</option>
+                        <option value="Cardamom Coriander Syrup">Cardamom Coriander Syrup</option>
+                    </select>
+                </div>
+                
+                <!-- Egg White & Juice -->
+                <div class="flex-row">
+                    <label>1.5 oz</label>
+                    <select>
+                        <option value="" disabled selected>--select--</option>
+                        <option value="Heavy Cream">Heavy Cream</option>
+                        <option value="Ginger Beer">Ginger Beer</option>
+                        <option value="Carrot Juice">Carrot Juice</option>
+                        <option value="Orange Juice">Orange Juice</option>
+                        <option value="Egg White">Egg White</option>
+                        <option value="Apple Cider">Apple Cider</option>
+                        <option value="Decaf Coffee">Decaf Coffee</option>
+                        <option value="Iced Tea">Iced Tea</option>
+                    </select>
+                </div>
+
+                <!-- Citrus -->
+                <div class="flex-row">
+                    <label>0.75 oz</label>
+                    <select>
+                        <option value="" disabled selected>--select--</option>
+                        <option value="Lemon Juice">Lemon Juice</option>
+                        <option value="Lime Juice">Lime Juice</option>
+                    </select>
+                </div>
+
+                <!-- Glassware -->
+                <div class="flex-row">
+                    <label>Glass</label>
+                    <select>
+                        <option value="" disabled selected>--select--</option>
+                        <option value="Rocks">Rocks</option>
+                        <option value="Rocks with King Cube">Rocks with King Cube</option>
+                        <option value="Collins">Collins</option>
+                        <option value="Collins with Crushed Ice">Collins with Crushed Ice</option>
+                        <option value="Coupe">Coupe</option>
+                        <option value="Martini">Martini</option>
+                        <option value="Berliner">Berliner</option>
+                        
+                    </select>
+                </div>
+
+                <!-- Garnish -->
+                <div class="flex-row">
+                    <label>Garnish</label>
+                    <select>
+                        <option value="" disabled selected>--select--</option>
+                        <option value="Grated Nutmeg">Grated Nutmeg</option>
+                        <option value="Grated Cinnamon">Grated Cinnamon</option>
+                        <option value="Ango Hearts">Ango Hearts</option>
+                        <option value="Dehydrated Apple">Dehydrated Apple</option>
+                        <option value="Orange Twist">Orange Twist</option>
+                        <option value="Lemon Twist">Lemon Twist</option>
+                        <option value="Cinnamon Stick">Cinnamon Stick</option>
+                        <option value="Dehydrated Lemon">Dehydrated Lemon</option>
+                        <option value="No Garnish">No Garnish</option>
+                    </select>
+                </div>
+
+            </div>
+            
+            <div class="cocktail-divider"></div>
+
+            <!-- Home by Midnight -->
+            <div class="cocktail">
+                <h2>Home by Midnight</h2>
+                
+                <!-- Simple Syrup -->
+                <div class="flex-row">
+                    <label>1 oz</label>
+                    <select>
+                        <option value="" disabled selected>--select--</option>
+                        <option value="Simple Syrup">Simple Syrup</option>
+                        <option value="Green Apple Syrup">Green Apple Syrup</option>
+                        <option value="Pumpkin Syrup">Pumpkin Syrup</option>
+                        <option value="Peablossom Syrup">Peablossom Syrup</option>
+                        <option value="Lychee Syrup">Lychee Syrup</option>
+                    </select>
+                </div>
+
+                <!-- Simple Syrup -->
+                <div class="flex-row">
+                    <label>1 oz</label>
+                    <select>
+                        <option value="" disabled selected>--select--</option>
+                        <option value="Cinnamon Clove Syrup">Cinnamon Clove Syrup</option>
+                        <option value="Citra Peach Syrup">Citra Peach Syrup</option>
+                        <option value="Demerara">Demerara</option>
+                        <option value="Apple Demerara">Apple Demerara</option>
+                        <option value="Cardamom Coriander Syrup">Cardamom Coriander Syrup</option>
+                    </select>
+                </div>
+                
+                <!-- Egg White & Juice -->
+                <div class="flex-row">
+                    <label>1 oz</label>
+                    <select>
+                        <option value="" disabled selected>--select--</option>
+                        <option value="Heavy Cream">Heavy Cream</option>
+                        <option value="Ginger Beer">Ginger Beer</option>
+                        <option value="Carrot Juice">Carrot Juice</option>
+                        <option value="Egg White">Egg White</option>
+                        <option value="Apple Cider">Apple Cider</option>
+                        <option value="Decaf Coffee">Decaf Coffee</option>
+                        <option value="Iced Tea">Iced Tea</option>
+                    </select>
+                </div>
+
+                <!-- Egg White & Juice -->
+                <div class="flex-row">
+                    <label>0.25 oz</label>
+                    <select>
+                        <option value="" disabled selected>--select--</option>
+                        <option value="Heavy Cream">Heavy Cream</option>
+                        <option value="Ginger Beer">Ginger Beer</option>
+                        <option value="Carrot Juice">Carrot Juice</option>
+                        <option value="Orange Juice">Orange Juice</option>
+                        <option value="Egg White">Egg White</option>
+                        <option value="Apple Cider">Apple Cider</option>
+                        <option value="Decaf Coffee">Decaf Coffee</option>
+                        <option value="Iced Tea">Iced Tea</option>
+                    </select>
+                </div>
+
+                <!-- Glassware -->
+                <div class="flex-row">
+                    <label>Glass</label>
+                    <select>
+                        <option value="" disabled selected>--select--</option>
+                        <option value="Rocks">Rocks</option>
+                        <option value="Rocks with King Cube">Rocks with King Cube</option>
+                        <option value="Collins">Collins</option>
+                        <option value="Collins with Crushed Ice">Collins with Crushed Ice</option>
+                        <option value="Coupe">Coupe</option>
+                        <option value="Martini">Martini</option>
+                        <option value="Berliner">Berliner</option>
+                        
+                    </select>
+                </div>
+
+                <!-- Garnish -->
+                <div class="flex-row">
+                    <label>Garnish</label>
+                    <select>
+                        <option value="" disabled selected>--select--</option>
+                        <option value="Grated Nutmeg">Grated Nutmeg</option>
+                        <option value="Grated Cinnamon">Grated Cinnamon</option>
+                        <option value="Ango Hearts">Ango Hearts</option>
+                        <option value="Dehydrated Apple">Dehydrated Apple</option>
+                        <option value="Orange Twist">Orange Twist</option>
+                        <option value="Lemon Twist">Lemon Twist</option>
+                        <option value="Cinnamon Stick">Cinnamon Stick</option>
+                        <option value="Dehydrated Lemon">Dehydrated Lemon</option>
+                        <option value="No Garnish">No Garnish</option>
+                    </select>
+                </div>
+
+            </div>
+            
+            <div class="cocktail-divider"></div>
+
+            <!-- Orhcards Aplenty -->
+            <div class="cocktail">
+                <h2>Orchard Aplenty</h2>
+                
+                <!-- Egg White & Juice -->
+                <div class="flex-row">
+                    <label>1 oz</label>
+                    <select>
+                        <option value="" disabled selected>--select--</option>
+                        <option value="Heavy Cream">Heavy Cream</option>
+                        <option value="Ginger Beer">Ginger Beer</option>
+                        <option value="Carrot Juice">Carrot Juice</option>
+                        <option value="Orange Juice">Orange Juice</option>
+                        <option value="Egg White">Egg White</option>
+                        <option value="Apple Cider">Apple Cider</option>
+                        <option value="Decaf Coffee">Decaf Coffee</option>
+                        <option value="Iced Tea">Iced Tea</option>
+                    </select>
+                </div>
+
+                <!-- Simple Syrup -->
+                <div class="flex-row">
+                    <label>0.5 oz</label>
+                    <select>
+                        <option value="" disabled selected>--select--</option>
+                        <option value="Simple Syrup">Simple Syrup</option>
+                        <option value="Cinnamon Clove Syrup">Cinnamon Clove Syrup</option>
+                        <option value="Green Apple Syrup">Green Apple Syrup</option>
+                        <option value="Peablossom Syrup">Peablossom Syrup</option>
+                        <option value="Lychee Syrup">Lychee Syrup</option>
+                    </select>
+                </div>
+
+                <!-- Simple Syrup -->
+                <div class="flex-row">
+                    <label>0.5 oz</label>
+                    <select>
+                        <option value="" disabled selected>--select--</option>
+                        <option value="Lychee Syrup">Lychee Syrup</option>
+                        <option value="Pumpkin Syrup">Pumpkin Syrup</option>
+                        <option value="Citra Peach Syrup">Citra Peach Syrup</option>
+                        <option value="Demerara">Demerara</option>
+                        <option value="Apple Demerara">Apple Demerara</option>
+                        <option value="Cardamom Coriander Syrup">Cardamom Coriander Syrup</option>
+                    </select>
+                </div>
+                
+                <!-- Egg White & Juice -->
+                <div class="flex-row">
+                    <label>0.75 oz</label>
+                    <select>
+                        <option value="" disabled selected>--select--</option>
+                        <option value="Heavy Cream">Heavy Cream</option>
+                        <option value="Ginger Beer">Ginger Beer</option>
+                        <option value="Carrot Juice">Carrot Juice</option>
+                        <option value="Orange Juice">Orange Juice</option>
+                        <option value="Egg White">Egg White</option>
+                        <option value="Apple Cider">Apple Cider</option>
+                        <option value="Decaf Coffee">Decaf Coffee</option>
+                        <option value="Iced Tea">Iced Tea</option>
+                    </select>
+                </div>
+
+                <!-- Citrus -->
+                <div class="flex-row">
+                    <label>0.75 oz</label>
+                    <select>
+                        <option value="" disabled selected>--select--</option>
+                        <option value="Lemon Juice">Lemon Juice</option>
+                        <option value="Lime Juice">Lime Juice</option>
+                    </select>
+                </div>
+
+                <!-- Egg White & Juice -->
+                <div class="flex-row">
+                    <label>1.5 oz</label>
+                    <select>
+                        <option value="" disabled selected>--select--</option>
+                        <option value="Heavy Cream">Heavy Cream</option>
+                        <option value="Ginger Beer">Ginger Beer</option>
+                        <option value="Carrot Juice">Carrot Juice</option>
+                        <option value="Orange Juice">Orange Juice</option>
+                        <option value="Egg White">Egg White</option>
+                        <option value="Apple Cider">Apple Cider</option>
+                        <option value="Decaf Coffee">Decaf Coffee</option>
+                        <option value="Iced Tea">Iced Tea</option>
+                    </select>
+                </div>
+
+                <!-- Bitters / Tinctures -->
+                <div class="flex-row">
+                    <label>1 Dash</label>
+                    <select>
+                        <option value="" disabled selected>--select--</option>
+                        <option value="Angostura Bitters">Angostura Bitters</option>
+                        <option value="Thai Chili Tincture">Thai Chili Tincture</option>
+                        <option value="Orange Bitters">Orange Bitters</option>
+                        <option value="Peychauds Bitters">Peychauds Bitters</option>
+                    </select>
+                </div>
+
+                <!-- Glassware -->
+                <div class="flex-row">
+                    <label>Glass</label>
+                    <select>
+                        <option value="" disabled selected>--select--</option>
+                        <option value="Rocks">Rocks</option>
+                        <option value="Rocks with King Cube">Rocks with King Cube</option>
+                        <option value="Collins">Collins</option>
+                        <option value="Collins with Crushed Ice">Collins with Crushed Ice</option>
+                        <option value="Coupe">Coupe</option>
+                        <option value="Martini">Martini</option>
+                        <option value="Berliner">Berliner</option>
+                        
+                    </select>
+                </div>
+
+                <!-- Garnish -->
+                <div class="flex-row">
+                    <label>Garnish</label>
+                    <select>
+                        <option value="" disabled selected>--select--</option>
+                        <option value="Grated Nutmeg">Grated Nutmeg</option>
+                        <option value="Grated Cinnamon">Grated Cinnamon</option>
+                        <option value="Ango Hearts">Ango Hearts</option>
+                        <option value="Dehydrated Apple">Dehydrated Apple</option>
+                        <option value="Orange Twist">Orange Twist</option>
+                        <option value="Lemon Twist">Lemon Twist</option>
+                        <option value="Cinnamon Stick">Cinnamon Stick</option>
+                        <option value="Dehydrated Lemon">Dehydrated Lemon</option>
+                        <option value="No Garnish">No Garnish</option>
+                    </select>
+                </div>
+
+            </div>
+            
+            <div class="cocktail-divider"></div>
+
+            <!-- One Hop This Time -->
+            <div class="cocktail">
+                <h2>One Hop This Time</h2>
+                
+                <!-- Simple Syrup -->
+                <div class="flex-row">
+                    <label>1 oz</label>
+                    <select>
+                        <option value="" disabled selected>--select--</option>
+                        <option value="Simple Syrup">Simple Syrup</option>
+                        <option value="Cinnamon Clove Syrup">Cinnamon Clove Syrup</option>
+                        <option value="Green Apple Syrup">Green Apple Syrup</option>
+                        <option value="Peablossom Syrup">Peablossom Syrup</option>
+                        <option value="Lychee Syrup">Lychee Syrup</option>
+                        <option value="Pumpkin Syrup">Pumpkin Syrup</option>
+                        <option value="Citra Peach Syrup">Citra Peach Syrup</option>
+                        <option value="Demerara">Demerara</option>
+                        <option value="Apple Demerara">Apple Demerara</option>
+                        <option value="Cardamom Coriander Syrup">Cardamom Coriander Syrup</option>
+                    </select>
+                </div>
+
+                <!-- Egg White & Juice -->
+                <div class="flex-row">
+                    <label>3 oz</label>
+                    <select>
+                        <option value="" disabled selected>--select--</option>
+                        <option value="Heavy Cream">Heavy Cream</option>
+                        <option value="Ginger Beer">Ginger Beer</option>
+                        <option value="Carrot Juice">Carrot Juice</option>
+                        <option value="Orange Juice">Orange Juice</option>
+                        <option value="Egg White">Egg White</option>
+                        <option value="Apple Cider">Apple Cider</option>
+                        <option value="Decaf Coffee">Decaf Coffee</option>
+                        <option value="Iced Tea">Iced Tea</option>
+                    </select>
+                </div>
+
+                <!-- Citrus -->
+                <div class="flex-row">
+                    <label>0.5 oz</label>
+                    <select>
+                        <option value="" disabled selected>--select--</option>
+                        <option value="Lemon Juice">Lemon Juice</option>
+                        <option value="Lime Juice">Lime Juice</option>
+                    </select>
+                </div>
+
+                <!-- Simple Syrup -->
+                <div class="flex-row">
+                    <label>0.5 oz</label>
+                    <select>
+                        <option value="" disabled selected>--select--</option>
+                        <option value="Simple Syrup">Simple Syrup</option>
+                        <option value="Cinnamon Clove Syrup">Cinnamon Clove Syrup</option>
+                        <option value="Green Apple Syrup">Green Apple Syrup</option>
+                        <option value="Peablossom Syrup">Peablossom Syrup</option>
+                        <option value="Lychee Syrup">Lychee Syrup</option>
+                        <option value="Pumpkin Syrup">Pumpkin Syrup</option>
+                        <option value="Citra Peach Syrup">Citra Peach Syrup</option>
+                        <option value="Demerara">Demerara</option>
+                        <option value="Apple Demerara">Apple Demerara</option>
+                        <option value="Cardamom Coriander Syrup">Cardamom Coriander Syrup</option>
+                    </select>
+                </div>
+
+                <!-- Glassware -->
+                <div class="flex-row">
+                    <label>Glass</label>
+                    <select>
+                        <option value="" disabled selected>--select--</option>
+                        <option value="Rocks">Rocks</option>
+                        <option value="Rocks with King Cube">Rocks with King Cube</option>
+                        <option value="Collins">Collins</option>
+                        <option value="Collins with Crushed Ice">Collins with Crushed Ice</option>
+                        <option value="Coupe">Coupe</option>
+                        <option value="Martini">Martini</option>
+                        <option value="Berliner">Berliner</option>
+                        
+                    </select>
+                </div>
+
+                <!-- Garnish -->
+                <div class="flex-row">
+                    <label>Garnish</label>
+                    <select>
+                        <option value="" disabled selected>--select--</option>
+                        <option value="Grated Nutmeg">Grated Nutmeg</option>
+                        <option value="Grated Cinnamon">Grated Cinnamon</option>
+                        <option value="Ango Hearts">Ango Hearts</option>
+                        <option value="Dehydrated Apple">Dehydrated Apple</option>
+                        <option value="Orange Twist">Orange Twist</option>
+                        <option value="Lemon Twist">Lemon Twist</option>
+                        <option value="Cinnamon Stick">Cinnamon Stick</option>
+                        <option value="Dehydrated Lemon">Dehydrated Lemon</option>
+                        <option value="No Garnish">No Garnish</option>
+                    </select>
+                </div>
+
+            </div>
+            
+            <div class="cocktail-divider"></div>
+
+            <button type="submit">Submit Quiz</button>
+
+            </div>
+
+           
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
